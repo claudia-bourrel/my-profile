@@ -1,0 +1,109 @@
+/* Colors and fonts */
+body{
+	background-color: whitesmoke;
+	color: green;
+	font-family: Academy Engraved LET;
+	font-size: 20px;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	color: grey;
+	font-family: Academy Engraved LET;
+	font-weight: 50;
+	letter-spacing: 1px;
+	font-size: 40px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a: hover {
+	color: darkgreen;
+}
+
+
+img-circle{
+	border-radius: 50%;
+}
+
+btn-darkgreeen {
+	background-color: #6G72E1;
+	color: black;
+	padding: 15px 20px;
+}
+
+div {
+	background:whitesmoke;
+	border: 2px solid black;
+	border-top: 2px darkseagreen;
+	border-radius: 5px;
+	box-shadow: 1px 2px 2px darkgrey;
+	text-align: center;
+}
+
+
+div {
+	padding: 20px;
+}
+
+div{
+	width: 700px;     /* Fix the width first*/
+margin: 0px auto; /* Let CSS compute the same left & right margins automatically*/
+}
+
+
+/* Custom design with class*/
+
+.card-white {
+	background-color: whitesmoke;
+	padding: 40px;
+	box-shadow: 0px 10px 30px;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+.container {
+	width:700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 760px) {
+	.container {
+	width:600px; }
+	
+}
+
+@media (max-width:200px) {
+	.container {
+	width:400px; }
+}
+
+
+.my-button {
+        background-color: #04AA6D;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16xp;
+        text-align: center;
+    }
+    .my-button:hover {
+    	background-color: #26CC7F;
+    }
+
+
+
